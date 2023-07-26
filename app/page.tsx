@@ -31,7 +31,7 @@ export default async function IndexPage() {
       <ul className="flex gap-4 p-4 w-full ">
         {data.map((post) => (
           <li key={post._id} className="flex py-4 ">
-            <article className=" w-full max-w-4xl mx-auto space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0 xl:w-full">
+            <article className=" w-full max-w-4xl mx-auto space-y-2 xl:grid  xl:items-baseline xl:space-y-0 xl:w-full">
               <div className="">
                 <div className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
