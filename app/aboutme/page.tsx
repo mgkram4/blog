@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function aboutme() {
+export default function AboutMe() {
   return (
-    <div className="flex-col h-40 w-40 justify-center space-y-8 md:space-y-5">
-      <h1 className="flex items-center justify-center text-3xl font-extrabold leading-9 tracking-tight text-pink-600 rounded dark:text-pink-500  sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+    <div className="flex-col justify-center items-center space-y-8">
+      <h1 className="text-3xl text-center font-extrabold leading-9 tracking-tight text-pink-600 rounded dark:text-pink-500 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
         About Me
       </h1>
 
@@ -17,12 +17,15 @@ export default function aboutme() {
           className="rounded-lg" // Set the desired height of the image
         />
       </div>
-      <div className="flex justify-center items-center space-y-8 font-bold text-center mx-12">
-        Hi, my name is Bella! I enjoy anything outdoors, like hiking, camping,
-        and going to the beach. I love my pets and all animals. My hobbies
-        include going to raves/festivals, tanning on the beach, and spending
-        time with my friends. Im currently a student at Cal Poly Pomona studying
-        psychology and early childhood studies.
+
+      <div className="space-y-4 text-center mx-4 md:mx-12">
+        <p className="font-bold md:text-lg">
+          Hi, my name is Bella! I enjoy anything outdoors, like hiking, camping,
+          and going to the beach. I love my pets and all animals. My hobbies
+          include going to raves/festivals, tanning on the beach, and spending
+          time with my friends. I'm currently a student at Cal Poly Pomona
+          studying psychology and early childhood studies.
+        </p>
       </div>
     </div>
   );
