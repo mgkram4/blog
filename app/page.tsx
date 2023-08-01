@@ -27,13 +27,12 @@ export default async function IndexPage() {
           Daily Feed
         </h1>
       </div>
-
-      <ul className="flex gap-4 p-4 w-full ">
-        {data.map((post) => (
-          <li key={post._id} className="flex py-4 ">
-            <article className=" w-full max-w-4xl mx-auto space-y-2 xl:grid  xl:items-baseline xl:space-y-0 xl:w-full">
-              <div className="">
-                <div className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="mx-auto">
+        <ul className="grid gap-4 grid-cols-2  md:grid-cols-3 ">
+          {data.map((post) => (
+            <li key={post._id} className="flex py-4">
+              <article className="w-full max-w-4xl mx-auto space-y-2 xl:grid xl:items-baseline xl:space-y-0 xl:w-full">
+                <div className="h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
                     <p className="text-base font-medium leading-6 text-pink-500">
                       {new Date(post._createdAt).toLocaleDateString("en-US", {
@@ -63,19 +62,19 @@ export default async function IndexPage() {
                     >
                       <path
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M1 5h12m0 0L9 1m4 4L9 9"
                       />
                     </svg>
                   </a>
                 </div>
-              </div>
-            </article>
-          </li>
-        ))}
-      </ul>
+              </article>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
