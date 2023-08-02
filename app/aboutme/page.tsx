@@ -18,7 +18,7 @@ export default function AboutMe() {
         />
       </div>
 
-      <div className="space-y-4 text-center mx-4 md:mx-12">
+      <div className="space-y-4  text-center mx-4 md:mx-12">
         <p className="font-bold md:text-lg">
           Hi, my name is Bella! I enjoy anything outdoors, like hiking, camping,
           and going to the beach. I love my pets and all animals. My hobbies
