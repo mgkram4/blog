@@ -23,7 +23,7 @@ export default function AboutMe() {
           Hi, my name is Bella! I enjoy anything outdoors, like hiking, camping,
           and going to the beach. I love my pets and all animals. My hobbies
           include going to raves/festivals, tanning on the beach, and spending
-          time with my friends. I'm currently a student at Cal Poly Pomona
+          time with my friends. I&apos;m currently a student at Cal Poly Pomona
           studying psychology and early childhood studies.
         </p>
       </div>
