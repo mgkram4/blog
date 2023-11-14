@@ -38,7 +38,7 @@ export default function Header() {
       <div className="grid gap-4">
         <div>
           <Image
-            src="/home4.png"
+            src="/home3.png"
             alt=""
             layout="responsive"
             className="h-auto max-w-full rounded-lg"
@@ -70,7 +70,7 @@ export default function Header() {
       <div className="grid gap-4">
         <div>
           <Image
-            src="/home7.png"
+            src="/home18.png"
             alt=""
             layout="responsive"
             className="h-auto max-w-full rounded-lg"
