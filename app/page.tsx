@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Post } from "./lib/interface";
 import { client } from "./lib/sanity";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 
 async function getData() {
   const query = `*[_type == "post"]`;
@@ -17,13 +17,8 @@ export default async function IndexPage() {
 
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
-      <h1 className="flex justify-center mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-        <mark className="px-2 text-white bg-slate-600 rounded dark:bg-slate-500">
-          Welcome!
-        </mark>
-      </h1>
       <div className="space-y-2 pt-4 mb-4 md:space-y-5 mt-2">
-        {/* <Header /> */}
+        <Header />
         <h1 className="flex pt-4 items-center justify-center text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Daily Feed
         </h1>

@@ -8,9 +8,9 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/">
             <h1 className="text-2xl font-medium ">
-              Stoic
+              Stay
               <span className="text-slate-600 rounded dark:text-slate-500">
-                Blog
+                Stoic
               </span>
             </h1>
           </Link>
