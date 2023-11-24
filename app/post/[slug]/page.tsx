@@ -41,7 +41,7 @@ export default async function SlugPage({
         <div className="space-y-1 text-center">
           <div className="space-y-10">
             <div>
-              <p className="text-base font-medium leading-6 text-pink-500">
+              <p className="text-base font-medium leading-6 text-slate-500">
                 {new Date(data._createdAt).toLocaleDateString("en-US", {
                   year: "numeric",
                   month: "long",
