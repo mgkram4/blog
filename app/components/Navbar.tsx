@@ -8,20 +8,14 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/">
             <h1 className="text-2xl font-medium ">
-              Bella&apos;s{" "}
-              <span className="text-pink-600 rounded dark:text-pink-500">
+              Stoic
+              <span className="text-slate-600 rounded dark:text-slate-500">
                 Blog
               </span>
             </h1>
           </Link>
         </div>
         <div className=" flex space-x-6">
-          {" "}
-          <Link href="/aboutme">
-            <h1 className="text-2xl font-medium mt-4">
-              <span className="">About</span>
-            </h1>
-          </Link>
           <ThemeButton />
         </div>
       </div>

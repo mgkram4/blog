@@ -7,8 +7,8 @@ import { Providers } from "./components/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bella's Blog",
-  description: "Girl Stuff",
+  title: "Stoic Blog",
+  description: "Stoic's Guide to Life",
 };
 
 export default function RootLayout({
