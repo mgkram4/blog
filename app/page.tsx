@@ -18,7 +18,12 @@ export default async function IndexPage() {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-4 mb-4 md:space-y-5 mt-2">
-        <Header />
+        <Header />{" "}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1233511905544381"
+          crossOrigin="anonymous"
+        ></script>
         <h1 className="flex pt-4 items-center justify-center text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Daily Feed
         </h1>
