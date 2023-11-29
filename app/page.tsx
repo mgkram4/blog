@@ -4,7 +4,7 @@ import { client } from "./lib/sanity";
 import Header from "./components/Header";
 
 async function getData() {
-  const query = `*[_type == "post"]`;
+  const query = `*[_type == "post"] | order(_createdAt desc)`;
 
   const data = await client.fetch(query);
 
